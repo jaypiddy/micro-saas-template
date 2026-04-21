@@ -1,0 +1,25 @@
+# [APP_NAME]
+
+> [APP_DESCRIPTION_PLACEHOLDER: A concise description of your tool]
+
+[APP_NAME] provides an intuitive interface for users to execute local tasks within their web browser. All processing is strictly client-side, ensuring maximum privacy with zero server uploads.
+
+## Key Capabilities
+- **Feature 1**: [Description of feature 1]
+- **Feature 2**: [Description of feature 2]
+- **Privacy Setup**: 100% offline-capable execution natively in the browser. No data collection.
+- **Cost**: 100% free with no sign-ups or Paywalls.
+
+## Core URLs
+- [Homepage](https://[YOUR_DOMAIN].com/)
+- [Contact Support](https://[YOUR_DOMAIN].com/contact)
+- [Privacy Policy](https://[YOUR_DOMAIN].com/privacy)
+- [Terms of Service](https://[YOUR_DOMAIN].com/terms)
+- [About Us](https://[YOUR_DOMAIN].com/about)
+
+## FAQ Data
+- **[FAQ_QUESTION_1]** [Answer 1]
+- **[FAQ_QUESTION_2]** [Answer 2]
+
+## AI & Developer Context
+This tool utilizes a local Vite-React SPA stack with Framer Motion, optimized for high SEO throughput using JSON-LD schema injection and client-side simulated multi-page AEO routing. This file is intended to give context to future AI bots scraping this domain.

@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="[APP_DESCRIPTION_PLACEHOLDER: A highly optimized 150-160 character description of what this micro-SaaS tool actually does.]" />
+    <meta name="keywords" content="[SEO_KEYWORDS_PLACEHOLDER: keyword1, keyword2, keyword3, long tail keyword phrase, another keyword]" />
+    <meta name="google-adsense-account" content="[YOUR_ADSENSE_PUB_ID: e.g., ca-pub-0000000000000000]" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://[YOUR_DOMAIN].com" />
+    <meta property="og:title" content="[APP_NAME] | [APP_SUBTITLE_PLACEHOLDER]" />
+    <meta property="og:description" content="[APP_OG_DESCRIPTION_PLACEHOLDER: Usually a slightly punchier version of the main meta description.]" />
+    <meta property="og:image" content="https://[YOUR_DOMAIN].com/og-image.png" />
+    <meta property="og:image:alt" content="[APP_NAME] - [APP_SUBTITLE_PLACEHOLDER]" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://[YOUR_DOMAIN].com" />
+    <meta property="twitter:title" content="[APP_NAME] | [APP_SUBTITLE_PLACEHOLDER]" />
+    <meta property="twitter:description" content="[APP_TWITTER_DESCRIPTION_PLACEHOLDER]" />
+    <meta property="twitter:image" content="https://[YOUR_DOMAIN].com/twitter-image.png" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "[APP_NAME]",
+      "operatingSystem": "Any",
+      "applicationCategory": "BrowserApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "url": "https://[YOUR_DOMAIN].com",
+      "description": "[APP_DESCRIPTION_PLACEHOLDER: A concise description of the application for Google's Knowledge Graph.]"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "[FAQ_QUESTION_1: What does this tool do?]",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "[FAQ_QUESTION_2: Is it completely free?]",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "[FAQ_QUESTION_3: How secure is my data?]",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "[FAQ_QUESTION_4: Do I need to make an account?]",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <title>[APP_NAME] | [APP_SUBTITLE_PLACEHOLDER]</title>
+    <link rel="canonical" href="https://[YOUR_DOMAIN].com" />
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=[YOUR_GTAG_ID: e.g., G-0000000000]"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '[YOUR_GTAG_ID: e.g., G-0000000000]');
+    </script>
+
+    <!-- AdSense Verification String -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=[YOUR_ADSENSE_PUB_ID: e.g., ca-pub-0000000000000000]"
+     crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <noscript>
+      [NOSCRIPT_PLACEHOLDER: Please enable JavaScript to run this web application natively in your browser.]
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
